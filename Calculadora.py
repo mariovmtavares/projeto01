@@ -9,8 +9,8 @@ Please type in the math operation you would like to complete:
 / for division
 ''')
 
-    numero_1 = int(input("Por favor, insira o primeiro número: "))
-    numero_2 = int(input("Agora o segundo número: "))
+    numero_1 = float(input("Por favor, insira o primeiro número: "))
+    numero_2 = float(input("Agora o segundo número: "))
 
     print("Os números escolhidos foram: ", numero_1, "e", numero_2)
 
